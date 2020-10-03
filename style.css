@@ -1,0 +1,191 @@
+body{
+    background-color: pink;
+}
+
+.navbar{
+    background-color: #80DEEA !important;
+}
+
+.nav-link{
+    color: #880E4F !important;
+    font-weight: bold;
+   
+    margin-top: 10px;
+    font-size: 25px;
+    margin-left: 30px;
+    
+    font-family: cursive;
+}
+
+.nav-link:hover {
+    background-color: steelblue;
+    border-radius: 30%;    
+}
+
+.tagLine{
+    background-color: #E3F2FD;
+    padding: 20px 0px;
+    font-size: 2em;
+    border: 2px solid #880E4F;
+}
+
+.fa-user-circle,.fa-cutlery{
+    font-size: 32px !important;
+}
+
+.fa-truck,.fa-headphones,.fa-thumbs-up{
+    font-size: 50px !important;
+    margin-right: 10px;
+    color: #3F51B5 !important;
+    background-color: #CCFF90;
+}
+
+.card1,.card2,.card3{
+    display: flex;
+    width: 300px;
+    height: 100px;
+    background-color: #CCFF90;
+    box-shadow: 2px 4px 5px grey;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    border: 4px solid #2E7D32;
+}
+
+.mainCard{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+h3{
+    color: #3F51B5;
+}
+
+.breakFast,.riceBowl,.chicken,.crezyBeef,.burger,.cake,.juice,.featuredProducts{
+    margin-top: 50px;
+}
+
+.card{
+    width: 250px;
+    height: auto !important;
+    border-radius: 20%;
+    margin-bottom: 40px;
+}
+
+.card:hover {
+    box-shadow: 0 0 5px 5px rgba(0, 140, 186, 0.5);
+}
+
+.card-text{
+    font-weight: bold;
+}
+
+.card-img-top {
+    border-radius: 22%;
+    margin-bottom: 40px;
+    height: 150px;
+    width: 250px;
+}
+
+.card-img-top:hover {
+    box-shadow: 0 0 2px 2px rgba(0, 140, 186, 0.5);
+}
+
+.btn-primary{
+    width: 100%;
+    background-color: #3F51B5;
+    border-radius: 15%;
+}
+
+.heading{
+    padding: 10px;
+    text-align: center;
+    font-size: bold;
+    background-color: #80DEEA;
+    color: #4A148C;
+    margin: 40px;
+    border: 4px solid #4A148C;
+}
+
+.design{
+    padding: 20px 40px;
+    font-style: italic;
+    text-align: center;
+    background-color: #80DEEA;
+    color: #880E4F;
+}
+
+.heading > h1{
+    text-shadow: 1px 1px 3px black;
+}
+
+.footer{
+    padding: 30px 20px;
+    width: 100%;
+    background-color: #80DEEA;
+    height: 120px;
+}
+
+.footer > div{
+    text-align: center !important;
+    align-items: center;
+}
+
+h4{
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+  
+  .social-buttons a{
+    display: inline-flex;
+    text-decoration: none;
+    font-size: 18px;
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0 8px;
+    background-color: rgb(223, 130, 107);
+  }
+  
+  .social-buttons a::before{
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(45deg,#22a6b3,#30336b);
+    border-radius: 50%;
+    z-index: -1;
+    transition: 0.3s ease-in;
+  }
+  
+  .social-buttons a:hover::before{
+    transform: scale(0);
+  }
+  
+  .social-buttons a i{
+    transition: 0.3s ease-in;
+  }
+  
+  .social-buttons a:hover i{
+    background: linear-gradient(45deg,#22a6b3,#30336b);
+  
+    -webkit-text-fill-color: transparent;
+    transform: scale(2.2);
+  }
+  
